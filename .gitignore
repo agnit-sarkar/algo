@@ -1,0 +1,7 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+*.iml
+**/build/
+**/out/
+.DS_Store
