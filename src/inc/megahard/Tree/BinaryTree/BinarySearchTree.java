@@ -1,6 +1,6 @@
-package inc.megahard.Tree;
+package inc.megahard.Tree.BinaryTree;
 
-public class BinarySearchTree extends Tree<Integer> {
+public class BinarySearchTree extends BinaryTree<Integer> {
 
     @Override
     protected Node insert(Node root, Integer data) {

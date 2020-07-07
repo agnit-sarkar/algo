@@ -1,6 +1,6 @@
-package test.inc.megahard.Tree;
+package test.inc.megahard.Tree.BinaryTree;
 
-import inc.megahard.Tree.BinarySearchTree;
+import inc.megahard.Tree.BinaryTree.BinarySearchTree;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

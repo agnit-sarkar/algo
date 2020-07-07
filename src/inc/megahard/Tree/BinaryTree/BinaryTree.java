@@ -1,7 +1,7 @@
-package inc.megahard.Tree;
+package inc.megahard.Tree.BinaryTree;
 
-public abstract class Tree<T> {
-    public class Node {
+public abstract class BinaryTree<T> {
+    class Node {
         public Node left;
         public Node right;
         public T data;
