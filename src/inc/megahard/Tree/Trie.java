@@ -32,7 +32,17 @@ public class Trie {
     }
 
     public boolean search(String word) {
-
+        Node current = root;
+        for (char letter: word.toCharArray()) {
+            Node next = current.children.get(letter);
+            if (next == null) {
+                return false;
+            }
+            current = next;
+        }
+        if (current.isWord)
+            return true;
+        return false;
     }
 
     public void printNode(Node root, String word) {

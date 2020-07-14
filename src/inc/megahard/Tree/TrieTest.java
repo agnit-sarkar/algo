@@ -12,13 +12,20 @@ class TrieTest {
     @BeforeEach
     void setup() {
         mTrie = new Trie();
+        mTrie.insert("cat");
+        mTrie.insert("card");
+        mTrie.insert("dart");
     }
 
     @Test
     void insert() {
-        mTrie.insert("cat");
-        mTrie.insert("card");
-        mTrie.insert("dart");
         mTrie.printTrie();
+    }
+
+    @Test
+    void search() {
+        assertTrue(mTrie.search("cat"));
+        assertFalse(mTrie.search("car"));
+        assertFalse(mTrie.search("band"));
     }
 }

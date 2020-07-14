@@ -1,5 +1,8 @@
 package inc.megahard.Tree.BinaryTree;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public abstract class BinaryTree<T> {
     class Node {
         public Node left;
@@ -57,6 +60,26 @@ public abstract class BinaryTree<T> {
         traversePostOrder(root.left);
         traversePostOrder(root.right);
         System.out.print(root.data + " ");
+    }
+
+    public void traverseLevelOrder() {
+        if (root == null)
+            return;
+        LinkedList<Node> nodeQueue =  new LinkedList<>();
+        nodeQueue.add(root);
+
+        while (!nodeQueue.isEmpty()) {
+            Node node = nodeQueue.pollFirst();
+            System.out.print(node.data + " ");
+
+            if (node.left != null) {
+                nodeQueue.offer(node.left);
+            }
+
+            if (node.right != null) {
+                nodeQueue.offer(node.right);
+            }
+        }
     }
 
     public void printTree() {

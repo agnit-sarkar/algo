@@ -43,4 +43,9 @@ class BinarySearchTreeTest {
     void traversePostOrder() {
         tree.traversePostOrder();
     }
+
+    @Test
+    void traverseLevelOrder() {
+        tree.traverseLevelOrder();
+    }
 }
