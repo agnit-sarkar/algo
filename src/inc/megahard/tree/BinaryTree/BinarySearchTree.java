@@ -1,4 +1,4 @@
-package inc.megahard.Tree.BinaryTree;
+package inc.megahard.tree.BinaryTree;
 
 public class BinarySearchTree extends BinaryTree<Integer> {
 

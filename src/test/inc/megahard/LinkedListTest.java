@@ -1,7 +1,7 @@
 package test.inc.megahard;
 
-import inc.megahard.LinkedList.LinkedList;
-import inc.megahard.LinkedList.ListNode;
+import inc.megahard.linkedList.LinkedList;
+import inc.megahard.linkedList.ListNode;
 import org.junit.jupiter.api.Test;
 
 class LinkedListTest {

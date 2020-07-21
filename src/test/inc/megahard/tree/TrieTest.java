@@ -1,5 +1,6 @@
-package inc.megahard.Tree;
+package test.inc.megahard.tree;
 
+import inc.megahard.tree.Trie;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

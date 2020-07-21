@@ -1,6 +1,4 @@
-package inc.megahard.Tree;
-
-import inc.megahard.Tree.BinaryTree.BinaryTree;
+package inc.megahard.tree;
 
 import java.util.HashMap;
 import java.util.Map;

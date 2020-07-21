@@ -1,4 +1,4 @@
-package inc.megahard.LinkedList;
+package inc.megahard.linkedList;
 
 public class ListNode {
     public final int data;

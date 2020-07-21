@@ -1,4 +1,4 @@
-package inc.megahard.Sort;
+package inc.megahard.sort;
 
 public class QuickSort implements Sort<Integer> {
     @Override

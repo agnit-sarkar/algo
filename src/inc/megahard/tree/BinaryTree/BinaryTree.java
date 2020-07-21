@@ -1,7 +1,6 @@
-package inc.megahard.Tree.BinaryTree;
+package inc.megahard.tree.BinaryTree;
 
 import java.util.LinkedList;
-import java.util.Queue;
 
 public abstract class BinaryTree<T> {
     class Node {
